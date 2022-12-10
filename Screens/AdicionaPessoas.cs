@@ -24,5 +24,10 @@ public static class AdicionaPessoasMenu
         Console.WriteLine($"{pessoa1.Nome} deve pagar {CalculaPorcentagemSalario1.ToString("F")}%");
         Console.WriteLine($"E {pessoa2.Nome} deve pagar {CalculaPorcentagemSalario2.ToString("F")}%");
 
+        Console.WriteLine("-----------------------------------------------");
+        Console.WriteLine("Aperta uma tecla para voltar ao menu principal");
+        Console.ReadLine();
+        Menu.MenuPrincipal();
     }
+
 }

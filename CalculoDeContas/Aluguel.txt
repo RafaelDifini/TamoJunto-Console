@@ -1,0 +1,3 @@
+Conta a pagar : Aluguel
+Valores a pagar são: 528 para e primeira pessoa, 
+ E: 272 para a segunda

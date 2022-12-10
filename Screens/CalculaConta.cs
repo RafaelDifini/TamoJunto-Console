@@ -30,8 +30,11 @@ public class CalculaContaMenu
             sw.WriteLine($"Conta a pagar : {conta.NomeConta}");
             sw.WriteLine($"Valores a pagar são: {calculoFinalPessoa1} para e primeira pessoa, \n E: {porcentagemPessoa2} para a segunda");
         }
+        Console.WriteLine("----------------------------------------------");
+        Console.WriteLine("Aperta uma tecla para voltar ao menu principal");
+        Console.ReadLine();
+        Menu.MenuPrincipal();
     }
-
 }
 
 
