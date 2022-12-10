@@ -1,0 +1,3 @@
+Conta a pagar : Carro
+Valores a pagar são: 480 para e primeira pessoa, 
+ E: 320 para a segunda

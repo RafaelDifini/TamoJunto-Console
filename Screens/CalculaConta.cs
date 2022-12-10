@@ -23,7 +23,7 @@ public class CalculaContaMenu
 
 
         var nomeArquivo = conta.NomeConta + ".txt";
-        var path = Path.Combine(@"C:\workspace\TamoJunto\TamoJunto.Console\CalculoDeContas", nomeArquivo);
+        var path = Path.Combine(Environment.CurrentDirectory, "CalculoDeContas", nomeArquivo);
         if (!File.Exists(path))
         {
             using var sw = File.CreateText(path);
